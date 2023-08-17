@@ -79,4 +79,15 @@ console.log( a===d || f< b); // true or false gives true
 console.log( a===d && f< b); // true and false gives false
 
 //End of step 7
-
+// start Step 8
+var result0;
+result0 = 5+ 3*2;           // antcipated answer 11
+console.log("result0", result0);
+var result1;
+result1 = 10/2+ 3;  // antcipated answer 8
+console.log("result1", result1);
+var result2;
+result2 = 10/(2+3);     // antcipated answer 2
+console.log("result2", result2);
+console.log(" the precedence in calculation is : *, /,  + and - respectively in the abscence of parenthesis, but lowest parenthesis come first");
+// end of step 8
