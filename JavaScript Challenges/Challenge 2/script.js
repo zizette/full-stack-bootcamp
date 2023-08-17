@@ -14,8 +14,8 @@ console.log("Expression1:", expression1);
 console.log("Expression2:", expression2);
 console.log("Expression3:", expression3);
 console.log("Expression4:", expression4);
-// end step1
-//start step2
+// 1
+//start step 1 2
 const age = 25;
 const hasDriverLicense = true;
 const hasCar = false;
@@ -28,17 +28,19 @@ if (age >= 22 && hasDriverLicense === true) {
 needDriver = false;
 if (age < 18 && hasDriverLicense === false && hasCar === false) { needDriver = true; }
 
-//start step3
+//start step  3
 var role = "admin";
 
-if (role == "admin") {
-    console.log('You have read and write access for the data');
+switch (role) {
+    case "admin":
+        console.log('You have read and write access for the data');
+        break;
+    case "user":
+        console.log('You have only read access for the data');
+        break;
+    case "guest":
+        console.log('You have no access for the data');
+        break;
+    default: console.log('User role is not recoginized');
 }
-else if (role === "user") {
-    console.log('You have only read access for the data');
-}
-else if (role === "guest") {
-    console.log('You have no access for the data');
-}
-else { console.log('User role is not recoginized'); }
 //End step 3
