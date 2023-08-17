@@ -51,5 +51,13 @@ const counter = 3;
   console.log(tryThisAlso);
   console.log ("Of course with backticks all is fine we can use arithmetic expression ! with $ {} of course !")
 //   ENd of 5 steps
-//
-  
+//Start 6th step
+let  str1="LOVELY ";
+let str2="Endlessly";
+
+// result=str1+str2;
+ let result=str1.concat(str2);
+ console.log(result);
+  document.write(`<h1>${result}</h1>`);
+
+//Step 7
