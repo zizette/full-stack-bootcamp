@@ -31,3 +31,25 @@ console.log(no_one, typeof no_one);
 
 let no_def=undefined;   //Undefined
 console.log(no_def, typeof no_def);
+
+// step 5:
+// What is interpolation in JavaScript?
+// In JavaScript, interpolation is the process of inserting strings or values into an existing string for various purposes
+const counter = 3;
+  const backtick = `This is my text using backticks ${counter} times`;
+  console.log(backtick);
+  console.log (`using backticks in strings we can introduce  inject variables, function calls, arithmetic expressions directly into a string`)
+  const singleQuote =
+    'This is my text using single quotations ${counter} times';
+    console.log(singleQuote);
+    console.log("In single quotes we cannot use litteral variables i.e. make use of JS interpolation defined above! ");
+  const doubleQuote =
+    "This is my text using double quotations ${counter} times";
+    console.log(doubleQuote);
+    console.log("For the previous is the same : using double quotes or single quotes we cannot use litteral variables i.e. make use of JS interpolation! ")
+  const tryThisAlso = `This is my new version, it’s the ${2 + 3}th version`;
+  console.log(tryThisAlso);
+  console.log ("Of course with backticks all is fine we can use arithmetic expression ! with $ {} of course !")
+//   ENd of 5 steps
+//
+  
