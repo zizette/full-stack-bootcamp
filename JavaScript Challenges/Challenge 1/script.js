@@ -61,3 +61,22 @@ let str2="Endlessly";
   document.write(`<h1>${result}</h1>`);
 
 //Step 7
+let a = 3;
+let b= "3";
+let c= 6;
+let d = 3;
+let f = "4"
+console.log( a === d);       // true
+console.log( a == b);       // true
+console.log( a !== b);      //true
+console.log( a !== f);        //true
+console.log( b!=c);         //true
+console.log( a >= d);       //true
+console.log( a < c );       //true
+console.log( a <= c );      //true
+console.log( f > b);        //true
+console.log( a===d || f< b); // true or false gives true
+console.log( a===d && f< b); // true and false gives false
+
+//End of step 7
+
