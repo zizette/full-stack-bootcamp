@@ -67,7 +67,6 @@ Inside the `quote.js` file, add needed code to add html elements using the follo
   beauty of the harmony of nature that is forever lost, or a daily rite that you
   perform, or diving into the sea for a swim. Those experiences are going to
   mark you."
-  <p class="category">Cate</cite>
   <div class="author">
     &mdash;
     <cite> Toni Servillo </cite>
@@ -88,4 +87,4 @@ Note: Make sure to check style.css for the needed styles.
 Don't forget to push your code to GitHub!<br>
 Wishing you all the best and happy coding!<br>
 In case you have any questions, feel free to google it.<br>
-Remember to continually commit your pChallenge 6 - Done with step to your completion of the various steps. Good luck with the challenge!
+Remember to continually commit your Challenge 7 - Done with step to your completion of the various steps. Good luck with the challenge!
